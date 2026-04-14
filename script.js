@@ -53,7 +53,8 @@ setInterval(createHeart, 300);
 // Smooth Hero Parallax
 window.addEventListener('scroll', () => {
     const scrolled = window.scrollY;
-    document.querySelector('.hero').style.backgroundPositionY = -(scrolled * 0.5) + 'px';
+    // Ajustado para manter o foco na parte superior (20%)
+    document.querySelector('.hero').style.backgroundPositionY = `calc(20% - ${scrolled * 0.5}px)`;
 });
 
 // YouTube API Logic
