@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Minha Eterna Esposa | Uma Declaração de Amor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="music-control" id="music-toggle">
+        <i class="fas fa-heart"></i>
+        <span>Música</span>
+    </div>
+
+    <!-- Landing Overlay -->
+    <div id="landing-overlay" class="landing-overlay">
+        <div class="landing-content">
+            <div class="floating-heart-large">❤️</div>
+            <h2>Geovana Nascimento</h2>
+            <p>Preparei uma surpresa especial para você...</p>
+            <div class="start-btn">Clique para abrir</div>
+        </div>
+    </div>
+
+    <!-- YouTube Hidden Player -->
+    <div id="youtube-player-container" style="position: absolute; top: -1000px; left: -1000px;">
+        <div id="player"></div>
+    </div>
+
+    <section class="hero">
+        <div id="heart-container"></div>
+        <h1>Para Geovana Nascimento</h1>
+        <p>Minha amada esposa, cada segundo ao seu lado é um presente.</p>
+    </section>
+
+    <section class="letter">
+        <div class="card" id="letter-card">
+            <h2>Geovana, Meu Amor Eterno...</h2>
+            <p>"Amar você é a jornada mais linda que já comecei. Ser seu marido é a maior honra da minha vida."</p>
+            <p>Escrevo estas palavras para que você nunca esqueça o quanto é especial. Você não é apenas minha esposa; você é minha melhor amiga, minha confidente e o meu porto seguro.</p>
+            <p>Amo cada detalhe nosso, cada risada compartilhada e até os silêncios que dizem tanto. Estar ao seu lado é onde eu sempre quero estar.</p>
+            <p>Hoje e para sempre, eu amo muito você.</p>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <h2>Nossos Momentos</h2>
+        <div class="gallery-grid" id="gallery">
+            <!-- As fotos serão carregadas via JS -->
+        </div>
+    </section>
+
+    <div class="lightbox" id="lightbox">
+        <img src="" alt="Ampliada">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
